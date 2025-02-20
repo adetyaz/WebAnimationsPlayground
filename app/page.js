@@ -1,20 +1,25 @@
+'use client'
 import Image from 'next/image'
 import Pexels from '../public/pexels-photo.jpeg'
-import { Basics } from './components/basics'
-import { Gestures } from './components/gestures'
-import { AnimationControl } from './components/animation-control'
-import { ViewBasedAnimations } from './components/view-based-animations'
-import { ScrollBased } from './components/scroll-based'
-import { StaggeredText } from './components/staggered-text'
-import { DeleteTask } from './components/delete-task'
-import { TextInput } from './components/text-input'
-import { BackgroundClip } from './components/background-clip'
-import { FancyBacklitHover } from './components/fancy-backlit-hover'
-import { ComplexButton } from './components/complex-button'
-import { PixelatedHero } from './components/pixelated-hero'
-import { NavMenu } from './components/nav-menu'
-import { TodosAnimate } from './components/todos-animate'
-import { SizesandText } from './components/sizes-and-text'
+import {
+	// Basics,
+	// Gestures,
+	// AnimationControl,
+	// ViewBasedAnimations,
+	// ScrollBased,
+	// StaggeredText,
+	// DeleteTask,
+	// TextInput,
+	// BackgroundClip,
+	// FancyBacklitHover,
+	// ComplexButton,
+	// PixelatedHero,
+	// NavMenu,
+	// TodosAnimate,
+	// SizesandText,
+	BackgroundBorders,
+	HighlightButton,
+} from './components'
 
 export default function Home() {
 	return (
@@ -34,7 +39,7 @@ export default function Home() {
 				sizes='(max-width: 500px) 300px'
 			/> */}
 			<div>
-				<ComplexButton />
+				<HighlightButton />
 			</div>
 		</main>
 	)

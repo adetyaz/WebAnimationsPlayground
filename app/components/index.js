@@ -13,6 +13,9 @@ export { StaggeredText } from './staggered-text'
 export { TextInput } from './text-input'
 export { TodosAnimate } from './todos-animate'
 export { ViewBasedAnimations } from './view-based-animations'
+export { BackgroundBorders } from './background-borders'
+export { MagnetWrapper } from './magnet-wrapper'
+export { HighlightButton } from './highlight-button'
 
 //icons
 export { ArrowRight } from './icons/arrow-right'
@@ -27,7 +30,7 @@ export { RightSpring } from './icons/right-spring'
 export { ScreenCursor } from './icons/screen-cursor'
 export { SocialFacebook } from './icons/social-facebook'
 export { SocialInstagram } from './icons/social-instagram'
-// export { SocialTwitter } from './icons/social-twitter'
+
 export { Toggle } from './icons/toggle'
 export { Vector } from './icons/vector'
 export { WandStar } from './icons/wand-star'

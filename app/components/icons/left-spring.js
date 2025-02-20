@@ -4,8 +4,8 @@ export const LeftSpring = ({ className }) => {
 	return (
 		<svg
 			width='397'
-			height='520'
-			viewBox='0 0 397 520'
+			height='450'
+			viewBox='0 0 397 450'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
 			className={className}
@@ -13,17 +13,17 @@ export const LeftSpring = ({ className }) => {
 			<rect
 				x='-0.5'
 				y='0.5'
-				width='91'
-				height='91'
+				width='75'
+				height='75'
 				rx='45.5'
 				transform='matrix(-1 0 0 1 91 54)'
 				fill='white'
 			/>
 			<rect
 				x='-0.5'
-				y='0.5'
-				width='91'
-				height='91'
+				y='11.5'
+				width='80'
+				height='80'
 				rx='45.5'
 				transform='matrix(-1 0 0 1 91 54)'
 				stroke='#D96A47'

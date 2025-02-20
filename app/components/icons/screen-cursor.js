@@ -3,9 +3,9 @@ import React from 'react'
 export const ScreenCursor = ({ className }) => {
 	return (
 		<svg
-			width='167'
-			height='128'
-			viewBox='0 0 167 128'
+			width='150'
+			height='70'
+			viewBox='0 0 150 128'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
 			className={className}

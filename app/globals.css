@@ -6,6 +6,8 @@
 	--foreground-rgb: 0, 0, 0;
 	--background-start-rgb: 214, 219, 220;
 	--background-end-rgb: 255, 255, 255;
+	--cursor-x: 50%;
+	--cursor-y: 50%;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,6 +15,8 @@
 		--foreground-rgb: 255, 255, 255;
 		--background-start-rgb: 0, 0, 0;
 		--background-end-rgb: 0, 0, 0;
+		--cursor-x: 50%;
+		--cursor-y: 50%;
 	}
 }
 
@@ -29,6 +33,73 @@ body {
 @layer utilities {
 	.text-balance {
 		text-wrap: balance;
+	}
+}
+
+.gradient {
+	background: conic-gradient(
+		from 0deg at 50% 50%,
+		transparent,
+		transparent,
+		#1e87ff
+	);
+	animation: rotate 1s linear infinite;
+}
+
+.gradient-2 {
+	background: conic-gradient(
+		from 0deg at var(--cursor-x) var(--cursor-y),
+		#1e87ff,
+		#5c13c4,
+		#ff0033,
+		#ffda00,
+		#64bc26,
+		#1e87ff
+	);
+	animation: rotate 2s linear infinite;
+}
+
+/* .gradient,
+.gradient-2 {
+	animation-play-state: paused;
+	background: darkcyan;
+	/* animation-play-state: running; */
+/* } */
+/* 
+.gradient-button:hover .gradient,
+.gradient-button:hover .gradient-2 {
+	animation-play-state: running;
+	background: conic-gradient(
+		from 0deg at 50% 50%,
+
+		#1e87ff,
+		#5c13c4,
+		#ff0033,
+		#ffda00,
+		#64bc26,
+		#1e87ff
+	); */
+/* } */
+
+.radial-gradient {
+	background: radial-gradient(
+			circle at 0% 0%,
+			rgba(250, 250, 250, 0.05) 0%,
+			transparent 100%
+		),
+		rgba(15, 15, 15, 1);
+}
+
+.linear-mask {
+	mask-image: linear-gradient(-75deg, white 20%, transparent 30, white 100%);
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
 	}
 }
 

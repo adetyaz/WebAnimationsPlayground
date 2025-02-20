@@ -2,8 +2,8 @@ export const RightSpring = ({ className }) => {
 	return (
 		<svg
 			width='146'
-			height='461'
-			viewBox='0 0 146 461'
+			height='350'
+			viewBox='0 0 146 350'
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
 			className={className}
@@ -18,9 +18,9 @@ export const RightSpring = ({ className }) => {
 			/>
 			<rect
 				x='74.1406'
-				y='46.5'
-				width='71'
-				height='71'
+				y='66.5'
+				width='60'
+				height='60'
 				rx='35.5'
 				stroke='#D96A47'
 			/>
@@ -30,7 +30,7 @@ export const RightSpring = ({ className }) => {
 				stroke-width='1.6'
 				stroke-dasharray='1 1'
 			/>
-			<g filter='url(#filter0_d_1_29486)'>
+			<g filter='url(#filter0_d_1_29486)' transform='translate(0, 20)'>
 				<rect
 					x='-0.5'
 					y='0.5'
